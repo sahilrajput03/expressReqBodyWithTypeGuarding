@@ -22,6 +22,8 @@ app.get('/', (req : Request, res: Response) => {
     
     
     res.send('Hello World!')
+  } else {
+    res.send("Bad body type of the request!!")
   }
 })
 
